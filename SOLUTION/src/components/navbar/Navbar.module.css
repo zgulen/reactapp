@@ -1,0 +1,26 @@
+.navbar-container{
+    background-color: rgb(66, 57, 57);
+    
+}
+
+.navbar-container__ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+li{
+    padding:2rem .2rem;
+}
+li:hover{
+    background-color: white;
+}
+li:hover a{
+    color: black;
+}
+
+a{
+    color: white;
+    margin: 0 .3rem;
+    text-decoration: none;
+    font-size: 1.14rem;
+}
